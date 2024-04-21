@@ -1,0 +1,191 @@
+/*font family start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/*font family end*/
+/*common css start*/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px ;
+    font-weight: 400;
+    color:#3D3E48;
+}
+/*common css end*/
+/*header start*/
+header{
+    background-color: transparent;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 200px;
+    background-image:url("../images/h1_water.jpg");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.logo{
+    color:#FFFFFF;
+}
+.logo:hover {
+  color: #FFFFFF;
+}
+.nbtn:focus{
+    box-shadow: none;
+}
+.li{
+/*    padding-right: 200px;*/
+}
+/*.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+<video autoplay loop muted plays-inline>
+    <source src="images/waves.mp4" type="video/mp4" class="back-video">
+  </video>*/
+
+.menu ul li a{
+font-size: 16px;
+font-weight: 400;
+color:#FFFFFF !important;
+line-height: 29px;
+padding:0 25px !important;
+}
+.menu ul li a:hover{
+    font-weight: 700;
+}
+
+.title{
+    padding-top: 100px;
+    padding-bottom: 8px;
+    color: #FFFFFF;
+    font-size: 47px;
+}
+.sub_title{
+/*    padding: 0 296px;*/
+    color: #FFFFFF;
+    line-height: 28.8px;
+}
+/*  background-color: #f5f5f5;*/
+/*header end*/
+/*feature start*/
+
+.features {
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.f_h2 {
+    color: #265364;
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+
+.f_p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.features-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature-card {
+  width: calc(20% - 20px); /* Adjust width as needed */
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 18px 8px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.feature-card i {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.feature-card h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.feature-card p {
+  margin-bottom: 5px;
+}
+
+.feature-card:hover {
+    background-color: #f2f2f2;
+  transform: scale(1.02); /* Add subtle hover effect */
+}
+/*feature end*/
+
+/*live data start*/
+.livedata {
+    padding-bottom: 75px;
+  } 
+/*live data end*/
+
+/*FAQ start*/
+.faq {
+  padding: 75px 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.fq_h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.fq_p{
+    text-align: left;
+}
+
+/*FAQ end*/
+/*benefit start*/
+.benefits {
+    color: white;
+  padding: 75px 0;
+  background-image:url("../images/h2_water.jpg");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.carousel-content {
+    padding-top: 50px;
+  text-align: center; /* Center text within carousel items */
+}
+
+.carousel-content p{
+    margin-top: 10px;
+}
+.carousel-caption {
+}
+.carousel-control-prev {
+
+    margin-top: 30px;
+}
+.carousel-control-next {
+    margin-top: 30px;
+}
+
+
+/*benefit end*/

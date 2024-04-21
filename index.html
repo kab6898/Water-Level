@@ -1,0 +1,219 @@
+  <!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Water Level Detector</title>
+    <!--css links-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+  </head>
+  <body>
+      <!-- header start -->
+      <header>
+  <div class="container">
+      <nav class="navbar navbar-expand-lg cnav">
+        <div class="container-fluid px-0">
+          <!-- logo -->
+          <a class="navbar-brand logo" href="index.html"><h3>AquaSense</h3>
+          </a>
+          <button class="navbar-toggler nbtn" type="button" data-bs-toggle="collapse" data-bs-target="#nsc" aria-controls="nsc" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse menu" id="nsc">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 li">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#livedata">Live Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#benefit">Benefits</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--  Hero content -->
+      <p class="text-center title mb-0">Water Level Detector</p>
+      <p class=" text-center sub_title mb-0">Never Run Out of Water Again: Introducing the Smart Water Level Detector</p> 
+
+  </div>
+   </header> 
+  <!-- header end -->
+  <!-- feature start -->
+<section class="features" id="feature">
+  <div class="container">
+    <!-- <h2 class="f_h2">How it Works</h2>
+    <p class="f_p">The AquaSense water level detector utilizes ultrasonic sensors to continuously monitor the water level in your tank. These sensors emit sound waves, and the time it takes for the sound to bounce back determines the distance to the water surface. This data is then processed and converted into a water level reading.</p> -->
+    <h2 class="f_h2">Key Features</h2>
+    <div class="features-card-container">
+      <div class="feature-card">
+        <i class="fas fa-chart-line"></i>
+        <h4>Real-time Monitoring</h4>
+        <p>Continuously track your water level and stay informed.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-bell"></i>
+        <h4>Water Level Alerts</h4>
+        <p>Receive notifications when the water level falls below or rises high from a set threshold</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-mobile"></i>
+        <h4>Remote Access</h4>
+        <p>Monitor and control your water level detector from anywhere using your smartphone or tablet.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-tools"></i>
+        <h4>Easy Approach</h4>
+        <p>Simple setup process with minimal tools required.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-square"></i>
+        <h4>Compatibility</h4>
+        <p>Works with various water tank shapes and sizes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- feature end -->
+
+  <!-- live data start -->
+<section class="livedata" id="livedata">
+  <div class="container">
+    <h2 class="f_h2">Dynamic Water levels</h2>
+    <p class="f_p">Watch the water Rise and Fall in real time</p>
+    <h3 id="waterLevel"></h3>
+  </div>
+</section>
+  <!-- live data end -->
+
+  <!-- FAQ start -->
+<section class="faq" id="faq">
+  <div class="container">
+    <h2 class="fq_h2">Frequently Asked Questions</h2>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            How does it work?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="fq_p">Our IoT Water Level Detector uses sensors to track water levels in real time, providing accurate data for immediate action.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Is it user-friendly?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="fq_p">Of course, it is. It's quite hassle-free and allows you to easily monitor the water level.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What if there is an overflow or an empty phase?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="fq_p">The system detects the levels and gives you signals accordingly. Before any critical situation happens, you'll be notified to take proper actions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Can it be used in any environmental cause?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="fq_p">Well, that's another advantage of our system. The signals can eventually be used for applications like flood or drought detection systems.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Is it reliable?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="fq_p">With a robust network and advanced technology, our detector ensures reliable performance around the clock.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FAQ end -->
+  <!-- benefit start -->
+<section class="benefits" id="benefit">
+  <div class="container">
+    <h2>Benefits of the AquaSense Water Level Detector</h2>
+    <div id="benefitsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-content d-flex flex-column h-100 justify-content-center align-items-center ">
+            <h5>Prevents Water Shortages</h5>
+            <p>Never run out of water again. Receive alerts before your tank reaches a critical level.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-content d-flex flex-column h-100 justify-content-center align-items-center ">
+            <h5>Saves Water Bills</h5>
+            <p>Avoid wasting water by monitoring your usage and preventing overflows.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-content d-flex flex-column h-100 justify-content-center align-items-center ">
+            <h5>Reduces Property Damage</h5>
+            <p>Protect your home from costly water damage caused by overflowing tanks.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#benefitsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#benefitsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- benefit end -->
+
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/script.js"></script>
+    </body> 
+    </html>
+
+
